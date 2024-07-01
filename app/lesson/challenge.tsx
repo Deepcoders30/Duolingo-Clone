@@ -18,7 +18,7 @@ export const Challenge = ({
   selectedOption,
   disabled,
   type,
-}: Props) => {
+}: Props) => {  
   return (
     <div
       className={cn(
