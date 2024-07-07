@@ -30,7 +30,7 @@ export const Footer = ({ onCheck, status, disabled, lessonId }: Props) => {
         {status === "wrong" && (
           <div className="text-rose-500 font-bold text-base lg:text-2xl flex items-center">
             <CheckCircle className="h-6 w-6 lg:h-10 lg:w-10 mr-4" />
-            Nicely Done!
+            Wrong!
           </div>
         )}
         {status === "completed" && (
