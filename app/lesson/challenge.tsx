@@ -18,7 +18,7 @@ export const Challenge = ({
   selectedOption,
   disabled,
   type,
-}: Props) => {  
+}: Props) => {
   return (
     <div
       className={cn(
@@ -29,7 +29,7 @@ export const Challenge = ({
       )}
     >
       {options.map((option, i) => (
-        <div>
+        <div key={option.id}>
           <Card
             key={option.id}
             id={option.id}
